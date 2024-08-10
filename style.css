@@ -1,0 +1,29 @@
+button
+{
+    font-size: 23px !important;
+}
+
+.btn-warning:hover
+{
+    background-color: dodgerblue;
+}
+
+canvas
+{
+    animation-name: example;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;  
+}
+
+@keyframes example {
+    from{
+        box-shadow: 2rem 2rem 38rem red;
+    }
+
+    to{
+        box-shadow: 2rem 2rem 38rem yellow;
+    }
+
+    
+    
+}
